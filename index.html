@@ -10,16 +10,17 @@
   <body>
     <div class="page">
       <header class="header">
+        <a class="header__link" href="https://practicum.yandex.com" target="_blank">
         <img
           class="logo logo_place_header"
           src="./images/logo_place_header.png"
           alt="practicum logo"
-        />
+        /></a>
         <h1 class="header__title">Learning How to Learn</h1>
         <p class="header__subtitle">
           The most effective, cutting-edge learning <br />
           techniques that you can apply to your daily life. <br />
-          <a class="header__link" href="#">Learn more &rarr;</a>
+          <a class="header__link" href="#the-problem">Learn more &rarr;</a>
         </p>
         <img
           class="header__main-illustration"
@@ -31,9 +32,9 @@
       <main class="content">
         <section class="description">
           <div class="description__title">
-            <div class="description__brief">
+            <h2 id="the-problem" class="description__brief">
               The main problem with education
-            </div>
+            </h2>
             <div class="description__main-text">
               <p class="description__paragraph">
                 Whether it's at school or university, the one thing no one ever
@@ -80,7 +81,8 @@
               <h4 class="table__heading">73%</h4>
               <p class="table__text">
                 The percentage of adults in the US who consider themselves
-                lifelong learners Pew Research Center
+                lifelong learners 
+                <div class="table__text table__source">Pew Research Center</div>
               </p>
             </li>
             <li class="table__cell">
@@ -101,7 +103,8 @@
               <h4 class="table__heading">420 million</h4>
               <p class="table__text">
                 The number of adults under 25 with insufficient education for
-                finding employment World Bank, 2017
+                finding employment 
+                <div class="table__text table__source">World Bank, 2017</div>
               </p>
             </li>
             <li class="table__cell">
@@ -127,12 +130,112 @@
         <section class="feynman">
           <h2 class="feynman__title">The Feynman Technique</h2>
           <h3 class="feynman__subtitle">Learn without forgetting</h3>
-          <a class="feynman__link" href="#">More &rarr;</a>
+          <a class="feynman__link" href="https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230" target="_blank">More &rarr;</a>
         </section>
 
-        <section class="kaufman"></section>
+        <section class="kaufman">
+          <h2 class="kaufman__title">
+            The principles of rapid skill acquisition
+          </h2>
+          <h3 class="kaufman__subtitle">by Josh Kaufman</h3>
+          <ul class="table">
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">1</h4>
+              <p class="table__text">Choose a lovable project</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">2</h4>
+              <p class="table__text">
+                Focus your energy on one skill at a time
+              </p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">3</h4>
+              <p class="table__text">Define your target performance level</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">4</h4>
+              <p class="table__text">Deconstruct the skill into sub-skills</p>
+            </li>
+
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">5</h4>
+              <p class="table__text">Obtain critical tools</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">6</h4>
+              <p class="table__text">Eliminate barriers to practice</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">7</h4>
+              <p class="table__text">Make dedicated time for practice</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">8</h4>
+              <p class="table__text">Create fast feedback loops</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">9</h4>
+              <p class="table__text">Practice by the clock in short bursts</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">10</h4>
+              <p class="table__text">Emphasize quantity and speed</p>
+            </li>
+          </ul>
+          <img
+            class="kaufman__triangle"
+            src="./images/kaufman-triangle.svg"
+            alt="a blue triangle"
+          />
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column_content_copyright">
+            <a class="footer__column-link" href="https://practicum.yandex.com" target="_blank">
+            <img
+              class="logo logo_place_footer"
+              src="./images/logo_place_footer.png"
+              alt="practicum logo dark"
+            /></a>
+            <p class="footer__column_content_author">&copy; 2021 Omri Ruvio</p>
+          </div>
+          <div class="footer__column_content_about">
+            <h5 class="footer__column-heading">About Practicum by Yandex</h5>
+            <ul class="footer__list">
+              <li><a class="footer__column-link" href="https://practicum.yandex.com/" target="_blank">Home page</a></li>
+              <li><a class="footer__column-link" href="https://praktikum.blog/3048477/" target="_blank">Mission</a></li>
+              <li><a class="footer__column-link" href="https://practicum.yandex.com/#all-professions-section" target="_blank">Professions</a></li>
+            </ul>
+          </div>
+          <div class="footer__column-content_social">
+            <h5 class="footer__column-heading">Social media</h5>
+            <ul class="footer__list">
+              <li>
+                <a class="footer__column-link" href="https://www.facebook.com/YPracticum/" target="_blank">
+                  <img
+                    class="footer__social-icons"
+                    src="./images/facebook_white.svg"
+                    alt="facebook logo white"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="https://www.instagram.com/y_practicum/" target="_blank">
+                  <img
+                    class="footer__social-icons"
+                    src="./images/instagram_white.svg"
+                    alt="instagram logo white"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
