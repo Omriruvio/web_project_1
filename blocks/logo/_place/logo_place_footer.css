@@ -2,7 +2,7 @@
   display: flex;
   width: 183px;
   height: 35px;
-  background-image: url("../../../images/logo_place_footer.png");
+  background-image: url("/images/logo_place_footer.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
