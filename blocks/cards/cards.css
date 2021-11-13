@@ -4,6 +4,8 @@
 @import url("./__description/cards__description.css");
 
 .cards {
+  padding: 0;
+  list-style: none;
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
