@@ -5,7 +5,9 @@ Techologies used - HTML, CSS.
 
 ## Future plans
 
-1. Additional mouseover effects.
-2. User comment submition form.
-3. Dark mode.
-4. Add loading spinners.
+1. Cross browser compatibility by incorporating vendor prefixes.
+2. Add responsive functionality with media queries and or framework integration.
+3. Additional mouseover effects and animations for different sections.
+4. Add user comment submition form.
+5. Implement dark mode compatibility.
+6. Check loading times and add loading spinners where necessary.
